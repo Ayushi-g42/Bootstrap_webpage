@@ -1,0 +1,36 @@
+@media (max-width:1199px){
+}
+@media (max-width:991px)
+{
+    .nav-elements{
+        display: block;
+    }
+    .main-img{
+        margin-top: -58%;
+    }
+   
+}
+@media (max-width:767px)
+{
+    .cards-pattern, .people-img, .stores{
+        flex-wrap: wrap;
+    }
+    .main-img{
+        margin-top: -45%;
+    }
+   
+}
+
+@media (max-width:574px)
+{
+    .main-img{
+        max-width: 100%;
+        margin-top: -30%;
+    }
+    .social-main{
+        width: 100%;
+    }
+    .cards-pattern{
+        flex-wrap: wrap;
+    }
+}
